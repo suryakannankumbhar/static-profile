@@ -1,0 +1,47 @@
+.site-header {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+}
+
+.twitter-link {
+  height: 36px;
+  width: 36px;
+  align-items: center;
+  padding-bottom: 7px;
+}
+
+.gmail-link {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+}
+
+.contact {
+  position: fixed;
+  bottom: 15px;
+}
+
+.site-header-content {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
